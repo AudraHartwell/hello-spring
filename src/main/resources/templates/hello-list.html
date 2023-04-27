@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="eng" xmlns: th="http://www.thymeleaf.org/" xmlns:th="">
+<head>
+    <meta charset="UTF-8"/>
+    <title></title>
+</head>
+<body>
+
+    <ul>
+        <th:block th:each="name : ${names}">
+            <li th:text="${name}"></li>
+        </th:block>
+    </ul>
+
+</body>
+</html>
